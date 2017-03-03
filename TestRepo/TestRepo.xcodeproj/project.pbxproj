@@ -13,6 +13,7 @@
 		4E18B11B1E69B0200051DB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E18B1191E69B0200051DB03 /* Main.storyboard */; };
 		4E18B11D1E69B0200051DB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E18B11C1E69B0200051DB03 /* Assets.xcassets */; };
 		4E18B1201E69B0200051DB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E18B11E1E69B0200051DB03 /* LaunchScreen.storyboard */; };
+		4E18B12C1E69B64F0051DB03 /* UIImage+testRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18B12B1E69B64F0051DB03 /* UIImage+testRepo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4E18B11C1E69B0200051DB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E18B11F1E69B0200051DB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E18B1211E69B0200051DB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E18B12A1E69B64F0051DB03 /* UIImage+testRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+testRepo.h"; sourceTree = "<group>"; };
+		4E18B12B1E69B64F0051DB03 /* UIImage+testRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+testRepo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				4E18B1141E69B0200051DB03 /* AppDelegate.m */,
 				4E18B1161E69B0200051DB03 /* ViewController.h */,
 				4E18B1171E69B0200051DB03 /* ViewController.m */,
+				4E18B12A1E69B64F0051DB03 /* UIImage+testRepo.h */,
+				4E18B12B1E69B64F0051DB03 /* UIImage+testRepo.m */,
 				4E18B1191E69B0200051DB03 /* Main.storyboard */,
 				4E18B11C1E69B0200051DB03 /* Assets.xcassets */,
 				4E18B11E1E69B0200051DB03 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				4E18B1181E69B0200051DB03 /* ViewController.m in Sources */,
 				4E18B1151E69B0200051DB03 /* AppDelegate.m in Sources */,
 				4E18B1121E69B0200051DB03 /* main.m in Sources */,
+				4E18B12C1E69B64F0051DB03 /* UIImage+testRepo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				4E18B1261E69B0200051DB03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
